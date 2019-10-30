@@ -11,6 +11,7 @@ Plugin 'mileszs/ack.vim' " ack search
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'The-NERD-tree'
+Plugin 'tpope/vim-surround' " autocomplete surroundings
 Plugin 'heavenshell/vim-pydocstring'
 Plugin 'scrooloose/syntastic' " flake8 required
 Plugin 'Vimjas/vim-python-pep8-indent'
