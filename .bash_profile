@@ -163,13 +163,10 @@ export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 
 
-# global variable
-export DAVID2=ygene.lee@david2-i02.woowa.in
-
 
 # PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 # Added by install_latest_perl_osx.pl
-[ -r /Users/rental_woowahan09/.bashrc ] && source /Users/rental_woowahan09/.bashrc
+[ -r /Users/"user_name"/.bashrc ] && source /Users/"user_name"/.bashrc
 
 
 # tab completion
