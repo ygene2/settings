@@ -41,6 +41,7 @@ set smartcase " 검색시 대소문자 구별
 set smarttab
 set ruler " 현재 커서 위치 표시
 set incsearch
+set ic " ignore upper lower case search
 
 " python indent setting
 set tabstop=8
