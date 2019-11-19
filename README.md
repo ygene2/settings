@@ -183,16 +183,19 @@
     - surround
         - 설치: .vimrc에 다음 라인 추가
             ```
+            Plugin 'tpope/vim-surround'
             ```
         - 사용법
             - add quotation, parentheses
-                - `ysw`
-                - `ysiw`
-                - `ysNaw`
+                - `ysw + quote`
+                - `ysiw + quote`
+                - `ysNaw + quote`
+            - add quotation with visual block
+                - `S + quote`
             - delete quotation, parentheses
-                - `ds`
+                - `ds + quote`
             - replace quotation, parantheses
-                - `cs`
+                - `cs + quote`
 
 ## 3. 기타
 - pybuilder
