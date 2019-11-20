@@ -8,6 +8,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe' " python auto-complete
 Plugin 'junegunn/fzf.vim' " fuzzy finder
 Plugin 'mileszs/ack.vim' " ack search
+Plugin 'tpope/vim-dadbod' " sql database
+Plugin 'scrooloose/nerdcommenter' " line comment
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'The-NERD-tree'
@@ -83,6 +85,7 @@ autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 " show hidden files
 let NERDTreeShowHidden=1
+" press s for split
 
 
 " check blank space
@@ -158,3 +161,16 @@ let g:airline_theme='dark'
 let g:ycm_autoclose_preview_window_after_insertion = 1
 " close window after accepting offered keyword
 let g:ycm_autoclose_preview_window_after_completion = 1
+
+
+" nerd comment settings
+" Add spaces after comment delimiters by default
+" let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+" let g:NERDCompactSexyComs = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+" let g:NERDCommentEmptyLines = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+" Enable NERDCommenterToggle to check all selected lines is commented or not 
+let g:NERDToggleCheckAllLines = 1
